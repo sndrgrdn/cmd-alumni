@@ -1,0 +1,87 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+h2, h5 {
+  font-weight: 700;
+}
+
+header {
+  padding: 3rem 1rem;
+
+  .logo {
+    width: 6rem;
+  }
+}
+
+.hero {
+  background-image: url('images/header2.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 12rem 1rem;
+  border-radius: 1rem;
+
+  &__title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+
+    & > small {
+      font-weight: 500;
+      font-size: 50%;
+    }
+  }
+}
+
+.button {
+  background-color: transparent;
+  border-radius: 0.3rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.5rem 3rem;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  user-select: none;
+  vertical-align: middle;
+
+  &-outline {
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background-color: #fff;
+      color: #212529;
+      text-decoration: none;
+    }
+  }
+}
+
+
+.testimonials, .newsletter {
+  padding: 6rem 0;
+}
+
+.testimonial {
+  text-align: center;
+
+  img {
+    width: 9rem;
+  }
+}
+
+.newsletter  {
+  width: 30rem;
+  max-width: 100%;
+}
+
+.btn, .form-control {
+  font-weight: 500;
+}
