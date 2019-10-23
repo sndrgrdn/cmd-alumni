@@ -5,4 +5,4 @@ for(var e=document.querySelectorAll(".validate"),t=0;t<e.length;t++)e[t].setAttr
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./styles.scss"),require("./js/mailchimp-form");
 },{"./styles.scss":"I4sy","./js/mailchimp-form":"5C6A"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.42916fcf.js.map
+//# sourceMappingURL=cmd-alumni/src.d994d012.js.map
